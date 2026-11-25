@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PharmaCare | Login</title>
+
+    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- Left side -->
+        <section class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <header class="navbar">
+
+                    <div class="brand">
+                        <div class="brand-icon"><i class="fa-solid fa-cross"></i></div>
+
+                        <div>
+                            <h1>MED<span>Box</span></h1>
+                            <p>PHARMACY & HEALTHCARE</p>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Medicines</a>
+                        <a href="#">Care</a>
+                        <a href="#">About</a>
+                    </nav>
+
+        <div class="tagline">
+                        <span>🌿</span>
+                        <div>
+                            <b>Better Health</b>
+                            <b>Brighter Days</b>
+                        </div>
+                    </div>
+
+                </header>
+
+
+                <div class="hero-main">
+
+
+
+                    <div class="trust">
+                        <i class="fa-solid fa-check"></i>Trusted Healthcare
+                    </div>
+
+                    <h2>
+                        Your Health,<br>
+                        <span>Our Priority</span>
+                    </h2>
+
+<p class="hero-description">
+                        Quality medicines, expert advice and
+                        personalized healthcare — all in one place.
+                    </p>
+
+
+                    <div class="features">
+
+                        <div class="feature">
+                            <div class="feature-icon">💊</div>
+                            <h3>Genuine</h3>
+                            <p>Medicines</p>
+
+
+
+            </div>
+
+                        <div class="feature lavender">
+                            <div class="feature-icon">♢</div>
+                            <h3>Safe &</h3>
+                            <p>Trusted</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">🚚</div>
+                            <h3>Fast</h3>
+                            <p>Delivery</p>
+                        </div>
+
+                        <div class="feature lavender">
+                            <div class="feature-icon">♡</div>
+                            <h3>Better</h3>
+                            <p>Healthcare</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Right side -->
+        <section class="login-area">
+
+            <div class="login-card">
+
+              
+
+                <div class="tabs">
+                    <button class="active" id="login-btn-top">Login</button>
+                    <button id="sign-up">Sign Up</button>
+                </div>
+  <div class="login-crend">
+
+                <div class="login-heading">
+
+                    <h2>Welcome Back!</h2>
+
+                    <p>
+                        Login to your PharmaCare account to manage
+                        your health and orders.
+                    </p>
+
+                </div>
+
+                                                    <!-- login-page-form -->
+                <form id="login-form">
+
+                    <div class="field">
+
+                        <label>Email Address or Mobile Number*</label>
+
+                        <div class="input">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+
+                            <input id="crenditial"
+                                type="text"
+                                placeholder="Email address or Mobile number"
+                                important
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label>Password*</label>
+
+                        <div class="input">
+
+                            <span><i class="fa-solid fa-user-lock"></i></span>
+
+                            <input id="passwrd"
+                                type="password"
+                                placeholder="Password"
+                                
+                            >
+
+                            <span class="eye"><i class="fa-solid fa-eye"></i></span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="options">
+
+                        <label class="remember">
+                            <input type="checkbox">
+                            <span>Remember me</span>
+                        </label>
+
+                        <a href="#">Forgot Password?</a>
+
+                    </div>
+
+
+                    <button class="login-button" type="submit" id="lgn-btn">
+                        Login
+                        <span><i class="fa-solid fa-arrow-right-to-bracket"></i></span>
+                    </button>
+
+
+                    <div class="divider">
+                        <span></span>
+                        <p>OR CONTINUE WITH</p>
+                        <span></span>
+                    </div>
+
+
+                    <div class="social">
+
+                        <button type="button" class="google-apple-btn">
+                            <strong class="google"><i class="fa-brands fa-google"></i></strong>
+                            Continue with Google
+                        </button>
+
+                        <button type="button" class="google-apple-btn">
+                            <strong class="apple"><i class="fa-brands fa-apple"></i></strong>
+                            Continue with Apple
+                        </button>
+
+                    </div>
+
+
+                    <p class="signup">
+                        Don't have an account?
+                        <a href="#">Sign Up</a>
+                    </p>
+
+                </form>
+            </div>
+
+               
+
+                           <!-- sign-up page form -->
+                            <div class="signUp-Card hidden">
+<div class=" signUP login-heading">
+
+                    <h2>Create Account!</h2>
+  <p>Sign up to start managing your prescriptions and health orders.</p>
+
+                </div>
+                           
+
+            <form action="" id="sign-up-form">
+               
+
+  <label for="">Full Name*</label>
+  <div class="input">
+  <input type="text" placeholder="Enter your full name" id="FullName"></div>
+
+  <label>Email Address or Mobile Number*</label>
+  <div class="input">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+
+                            <input id="Email"
+                                type="text"
+                                placeholder="Email address or Mobile number"
+                                important
+                            >
+                        </div>
+
+         <label for="">Gender*</label>
+
+         <div class="Gender input">
+
+  <input type="text" placeholder="Enter your Gender" id="sex">
+</div>
+
+ 
+                                        
+
+                          <label for="">Create Password*</label>
+                          <div class="input">
+
+                            <span><i class="fa-solid fa-user-lock"></i></span>
+
+                            <input id="newPswrd"
+                                type="password"
+                                placeholder=" Create Password"
+                                
+                            >
+
+                            <span class="eye"><i class="fa-solid fa-eye"></i></span>
+
+                        </div>
+
+                          <label for="">Confirm Password*</label>
+                           <div class="input">
+
+                            <span><i class="fa-solid fa-user-lock"></i></span>
+
+                            <input id="Confirm-Pswrd"
+                                type="password"
+                                placeholder="Confirm Password"
+                                
+                            >
+
+                            <span class="eye"><i class="fa-solid fa-eye"></i></span>
+
+                        </div>
+
+                         <button class=" signUpBottom login-button" type="submit">
+                        Sign Up
+                        <span><i class="fa-solid fa-arrow-right-to-bracket"></i></span>
+                    </button>
+
+                    <p class="Login">
+                        Already have an account?
+                        <a href="#">Login</a>
+                    </p>
+
+
+                        
+            </form>
+</div>
+            
+ </div>
+        </section>
+
+    </div>
+
+    <!-- Main JS -->
+     <script src="assets/javascripts/main.js"></script>
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/d1d9f81d7f.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
