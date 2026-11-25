@@ -217,8 +217,8 @@ nav a:hover {
     transform: translateY(-7px) scale(1.02);
     
     border-color:  rgb(42, 0, 105);
-    box-shadow: 0 0 15px rgb(42, 0, 105)
-                0 0 30px rgb(42, 0, 105)
+    box-shadow: 0 0 15px rgb(42, 0, 105),
+                0 0 30px rgb(42, 0, 105),
                 0 0 50px rgb(42, 0, 105);
 }
 
@@ -689,6 +689,7 @@ nav a:hover {
     .hero,
     .login-area {
         width: 100%;
+        margin-top: 0;
     }
 
     .hero {
@@ -708,7 +709,7 @@ nav a:hover {
 @media (max-width: 550px) {
 
     .hero {
-        min-height: 620px;
+        min-height: auto;
     }
 
     .navbar {
@@ -721,6 +722,7 @@ nav a:hover {
 
     .hero-main {
         margin: 70px 25px 0;
+        display: none;
     }
 
     .hero-main h2 {
@@ -757,5 +759,10 @@ nav a:hover {
 
     .social {
         flex-direction: column;
+    }
+
+    .options{
+        flex-wrap: wrap;
+        gap: 10px;
     }
 }
